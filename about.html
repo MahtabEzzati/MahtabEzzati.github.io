@@ -64,19 +64,58 @@
 			<button id="member_button">عضو شوید</button>
 		</div>
 		
-		<div class="about_us">
-			<img id="hanger" src="pictures/hanger.png">
-			<p id="about_us_title">درباره ی ما</p>
-			<b dir ="rtl" id="about_us_text1"><br>توسعه اینترنت روشهای خرید ما</br><br>را به کلی دگرگون کرده است.</br><br>منافع موجود در خرید اینترنتی هر</br><br>روز، تعداد بیشتری از مردم را به</br><br>تجربه آن و ایجاد تغییر در</br><br>الگوهای متداول خرید ترغیب می</br><br>کند.</br></b>
-			<b dir ="rtl" id="about_us_text2"><br>بعد از تجربه خرید اینترنتی بیشتر با سرعت زندگی مدرن همگام شد و توانست</br><br>خود را با روحیات و نیازهای رو به رشد مشتریان هماهنگ کند. در حالیکه مشغله</br><br>های روزانه فرصت لذت بردن از اوقات فراغت را کاهش داده است، صرف زمان های</br><br>طولانی برای انجام سفرهای درون شهری و خرید نیازهای روزانه معنای خود را از</br><br>دست می دهد. آنچه در فرصت اوقات فراغت
-												فراغت برای افراد در اولویت قرار می گیرد،</br><br>تفریح، آموزش، ورزش، لذت بردن از علایق شخصی و رفع خستگی های روزانه است.</br><br>همه این عوامل افراد را مجاب به استفاده از روش های نوین مانند مراجعه به یک</br><br>فروشگاه اینترنتی در کمترین زمان برای انجام فعالیت های وقت گیر گذشته می</br><br>کند، تا قبل از دیجی استایل فرآیند استقبال مشتریان از دیجی کالا ثابت کرد این</br><br>روش از زندگی مورد علاقه طیف عظیمی از افردا است</br></b>
+		<div id="slider_border">
+			<div id="slideshow-container">
+				<div class="mySlides fade">
+					<img class="image_slide" src="pictures/image1.jpg">
+				</div>
+				
+				<div class="mySlides fade">
+					<img class="image_slide" src="pictures/image2.jpg">
+				</div>
+
+				<div class="mySlides fade">
+					<img class="image_slide" src="pictures/image3.jpg">
+				</div>
+
+				<div class="mySlides fade">
+					<img class="image_slide" src="pictures/image4.jpg">
+				</div>		
+				
+				<img class="next" src="pictures/next.png" onclick="plusSlides(1)">
+				<img class="prev" src="pictures/previous.png" onclick="plusSlides(-1)">
+
+	        </div>
+			<div id="dots">
+				<div class="dot" onclick="currentSlide(1)"></div> 
+				<div class="dot" onclick="currentSlide(2)"></div> 
+				<div class="dot" onclick="currentSlide(3)"></div> 
+				<div class="dot" onclick="currentSlide(4)"></div> 
+			</div>
+			
+			<div id="slider_buttom">
+				<div id="men">
+					<img id= "image1" src="pictures/image_box.png">
+					<p id="men_text">مردانه</p>
+				</div>
+				
+				<div id="women">
+					<img id= "image2" src="pictures/image_box.png">
+					<p id="women_text">زنانه</p>
+				</div>
+				
+				<div id="children">
+					<img id= "image3" src="pictures/image_box.png">
+					<p id="children_text">بچه گانه</p>
+				</div>
+			</div>
 		</div>
 		
-		<div class="why_us">
-			<img id="why_us_pic" src="pictures/why_us.png">
-			<b id="why_us_text1">چرا از ما خرید کنید؟</b>
-			<b id="why_us_text2">متن شما اینجا قرار می گیرد</b>
+		<div id="buy_best">
+			<p id="buy_best_text">بهترین ها را از ما خرید کنید</p>
 		</div>
+		
+
 		
 		<div class="block_buttons">
 			<b id="title1">مردانه</b>
@@ -86,27 +125,12 @@
 			<b id="title5">تخفیف</b>
 			<b id="title6">برندها</b>
 			<img id="nav_line" src="pictures/nav_line.png">
-			<b id="block1">درباره ی ما</b>
-				<img id="block1_icon" src="pictures/block1.png">
-			<a href="contact.html">
-				<b id="block2">تماس با ما</b>
-			</a>				
-				<img id="block2_icon" src="pictures/block2.png">
-			<b id="block3">سوالات متداول</b>
-				<img id="block3_icon" src="pictures/block3.png">
-			<a href="return.html">
-				<b id="block4">شرايط بازگرداندن</b>
-			</a>				
-				<img id="block4_icon" src="pictures/block4.png">
-			<b id="block5">شرایط و ضوابط</b>
-				<img id="block5_icon" src="pictures/block5.png">
-			<b id="block6">حریم خصوصی</b>
-				<img id="block6_icon" src="pictures/block6.png">	
 		</div>
 		
 		<div class="navigation">
 			<button id="navigation_member_button">عضویت</button>
 			<button id="navigation_login_button">ورود</button>
+			
 			<img id="clothster" src="pictures/clothster.png">
 			<div class="container">
 				<input id="search" dir ="rtl" type="text" size="35"/>
@@ -114,6 +138,46 @@
 				<div class="magnifier2"><img src="pictures/magnifier2.png"></div>
 			</div>
 		</div>
+		
+		<div id="myModal" class="modal">
+			<div class="modal_content">
+				<div id="box">
+					<span class="close">&times;</span>
+					<p id="modal_enter">ورود</p>
+					<b id="phone_email">شماره تلفن یا ایمیل</b>
+					<input id="phone_email_field" dir ="ltr" type="text" size="35" value="برای مثال mahtab.ezzaty@gmail.com"/>
+					<b id="password">رمز عبور</b>
+					<input type="password" id="password_field" dir ="rtl" size="35"/>
+					<b id="forget_password">رمز عبور خود را فراموش کرده اید؟</b>
+					<b id="click">کلیک کنید</b>
+					<button id="enter_button">ورود</button>
+				</div>
+			</div>
+		</div>
+		
+		<div id="myModal1" class="modal1">
+			<div class="modal_content1">
+				<div id="box1">
+					<span class="close1">&times;</span>
+					<p id="modal_enter1">ثبت نام</p>
+					<b id="phone_email1">شماره تلفن یا ایمیل</b>
+					<input id="phone_email_field1" dir ="ltr" type="text" size="35" value="برای مثال mahtab.ezzaty@gmail.com"/>
+					<b id="password1">رمز عبور</b>
+					<input type="password" id="password_field1" dir ="rtl" size="35"/>
+					<b id="forget_password1">رمز عبور خود را فراموش کرده اید؟</b>
+					<b id="click1">کلیک کنید</b>
+					<button id="enter_button1">ثبت نام</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+<script src="about.js"></script>	
+<script src="form_enter.js"></script>
+<script src="form_member.js"></script>		
+	
 	</body>
 </html>
 

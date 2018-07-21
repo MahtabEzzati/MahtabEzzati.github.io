@@ -1,7 +1,7 @@
 #brands {
 	position:absolute;
 	right: 13.75%;
-	bottom: -13.25%;
+	bottom: -21.75%;
 	width: 47.7%;
 	height: 36.75%;
 	border: 1px solid #D3D3D3;
@@ -16,7 +16,7 @@
 	padding: 7px 15px 7px 25px;
 	border-radius: 25px;
 	border-width: 30px;
-	top: 89.25%;
+	top: 97.75%;
 	right: 28%;
 }
 
@@ -31,7 +31,7 @@
 	width: 24%;
 	height: 37%;
 	right: 62.5%;
-	bottom: -13.25%;
+	bottom: -21.75%;
 	border-radius: 2%;
 	box-shadow: 1px 22px 40px -0.1px #888888,
 				-2px 5px 40px -20px #888888;

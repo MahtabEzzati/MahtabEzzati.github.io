@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("shabnam/Shabnam.eot");
+  src: url("shabnam/Shabnam.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam.woff") format('woff'),
+       url("shabnam/Shabnam.ttf") format('truetype');
+  font-weight: normal;
+}
+     
+@font-face {
+  font-family: "Shabnam-Bold";
+  src: url("shabnam/Shabnam-Bold.eot");
+  src: url("shabnam/Shabnam-Bold.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Bold.woff") format('woff'),
+       url("shabnam/Shabnam-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Shabnam-Light";
+  src: url("shabnam/Shabnam-Light.eot");
+  src: url("shabnam/Shabnam-Light.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Light.woff") format('woff'),
+       url("shabnam/Shabnam-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Shabnam-digit";
+  src: url("shabnam/ShabnamFD.eot");
+  src: url("shabnam/ShabnamFD.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/ShabnamFD.woff") format('woff'),
+       url("shabnam/ShabnamFD ttf") format('truetype');
+  font-weight: normal;
+}
+
 .navigation{
 	position:absolute;
 	top: 2%;
@@ -88,4 +124,64 @@
 	left: 8.75%;
 	opacity: 0;
 }
+
+#user_name, #basket, #maintain, #number {
+	position: absolute;
+	top: 45%;
+	right: 15%;
+	font-family: "Shabnam";
+	font-size: 12px;
+}
+
+#arrow_name {
+	position: absolute;
+	top: 50%;
+	right: 19.5%;
+	height: 20%;
+}
+
+#basket {
+	right: 21.5%;
+    top: 20%;
+}
+
+#bag {
+	position: absolute;
+	top: 38%;
+	right: 25.2%;
+}
+
+#maintain {
+	right: 27.2%;
+	top: 20%;
+}
+
+#number {
+	top: 33%;
+	right: 25.7%;
+	color: white;
+	background-color: #ff80bf;
+	border-radius: 50%;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-family: "Shabnam-digit";
+}
+
+#maintain_image {
+	position: absolute;
+	top: 36%;
+	right: 32.9%;
+	height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 

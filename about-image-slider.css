@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("shabnam/Shabnam.eot");
+  src: url("shabnam/Shabnam.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam.woff") format('woff'),
+       url("shabnam/Shabnam.ttf") format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: "Shabnam-Bold";
+  src: url("shabnam/Shabnam-Bold.eot");
+  src: url("shabnam/Shabnam-Bold.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Bold.woff") format('woff'),
+       url("shabnam/Shabnam-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Shabnam-Light";
+  src: url("shabnam/Shabnam-Light.eot");
+  src: url("shabnam/Shabnam-Light.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Light.woff") format('woff'),
+       url("shabnam/Shabnam-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+
+#slider_border{
+	position: absolute;
+	top: 19.5%;
+	left:12%;
+	border: 1px solid #e6e6e6;
+	height: 30%;
+	width: 76%;
+}
+
+.mySlides {display: none}
+
+#slideshow-container {
+	position: absolute;
+	top: 4%;
+	left: 2%;
+	border: 1.1px solid #b3b3b3;
+	height: 91%;
+	width: 95.9%;
+}
+
+.image_slide {
+	position: absolute;
+	height: 92%;
+	width: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top:25%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+#dots{
+	position: absolute;
+	top: 87.5%;
+	left: 48%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 0px;
+  background-color: white;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 0.5px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#slider_buttom {
+	position: absolute;
+	top: 105%;
+	left: 2%;
+	border: 1.1px solid #b3b3b3;
+	height: 70%;
+	width: 95.9%;
+}
+
+#image1, #image2, #image3 {
+	position: absolute;
+	top: -1%;
+	right: -0.10%;
+	height: 82%;
+}
+
+#image2 {
+	right: 33.20%;
+}
+
+#image3 {
+	right: 66.5%;
+}
+
+#men_text, #women_text, #children_text {
+	color: 	#f2f2f2;
+	position:absolute;
+	top: 69%;
+	right: -0.10%;
+	height: 24%;
+	width: 33.5%;
+	font-family: "Shabnam";
+	font-size: 16px;
+	background-color: #a6a6a6;
+	text-align: center;
+	padding-top: 9px;
+}
+
+#women_text {
+	right: 33.23%;
+	border-right: 2px solid  #999999;
+}
+
+#children_text {
+	right: 66.45%;
+	border-right: 2px solid  #999999;
+}
+
+#buy_best {
+	position: absolute;
+	top: 76.5%;
+	right: 40%;
+}
+
+#buy_best_text {
+	font-size: 17px;
+	font-family: "Shabnam";
+	color: #262626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
